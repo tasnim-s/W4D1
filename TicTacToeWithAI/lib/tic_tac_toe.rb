@@ -149,7 +149,7 @@ class HumanPlayer
   def move(game, mark)
     game.show
     while true
-      puts "#{@name}: please select your space"
+      puts "#{@name}: please select your space (0,0)"
       row, col = gets.chomp.split(",").map(&:to_i)
       if HumanPlayer.valid_coord?(row, col)
         return [row, col]
