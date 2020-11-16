@@ -1,4 +1,4 @@
-# DON'T EDIT ME!
+# DON'T EDIT ME! 
 
 class Board
   attr_reader :rows
